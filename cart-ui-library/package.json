@@ -1,5 +1,5 @@
 {
-  "name": "@khang-cnpm/cart-ui-library",
+  "name": "@hung-cnpm/cart-ui-library",
   "version": "1.0.0",
   "description": "Cart UI Library - Standardized components for shopping cart functionality",
   "main": "dist/index.js",
