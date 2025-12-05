@@ -1,0 +1,50 @@
+{
+  "name": "@khang-cnpm/cart-ui-library",
+  "version": "1.0.0",
+  "description": "Cart UI Library - Standardized components for shopping cart functionality",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/index.esm.js",
+      "require": "./dist/index.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc && rollup -c",
+    "dev": "tsc --watch",
+    "test": "jest",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "cart",
+    "ui",
+    "components",
+    "shopping",
+    "ecommerce"
+  ],
+  "author": "Nguyen Minh Khang",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hungle10/cart-ui-library.git"
+  },
+  "peerDependencies": {
+    "react": "^18.0.0 || ^19.0.0",
+    "react-dom": "^18.0.0 || ^19.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.5",
+    "@types/react-dom": "^19.2.3",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "typescript": "^5.9.3",
+    "@rollup/plugin-commonjs": "^25.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.0",
+    "@rollup/plugin-typescript": "^11.1.0",
+    "rollup": "^4.9.0"
+  }
+}
